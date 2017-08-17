@@ -57,14 +57,14 @@
                                 <rect key="frame" x="207" y="150" width="92" height="30"/>
                                 <state key="normal" title="QQ分享"/>
                                 <connections>
-                                    <action selector="sinaButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dAB-aI-EZk"/>
+                                    <action selector="QQShareButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3H0-bQ-TlZ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CvO-ot-TLw">
                                 <rect key="frame" x="207" y="256" width="92" height="30"/>
                                 <state key="normal" title="微信分享"/>
                                 <connections>
-                                    <action selector="sinaButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ng2-5y-IVT"/>
+                                    <action selector="wechatShareButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Iky-Vy-6UQ"/>
                                 </connections>
                             </button>
                         </subviews>

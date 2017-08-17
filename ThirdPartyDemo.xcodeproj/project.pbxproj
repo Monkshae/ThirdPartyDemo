@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3BC335832A9FE71E3938AAA7 /* Pods_ThirdPartyDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8282F379FF6D25AD21D95F75 /* Pods_ThirdPartyDemo.framework */; };
+		D90ABFF41F459C7700FFD449 /* img.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D90ABFF31F459C7700FFD449 /* img.jpg */; };
 		D9379A451F443AAF00A29A82 /* libWeiboSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9379A411F443AAF00A29A82 /* libWeiboSDK.a */; };
 		D9379A461F443AAF00A29A82 /* WeiboSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D9379A431F443AAF00A29A82 /* WeiboSDK.bundle */; };
 		D9379A991F4582C300A29A82 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9379A981F4582C300A29A82 /* Photos.framework */; };
@@ -37,6 +38,7 @@
 		6509CA738846761059043A1A /* Pods-ThirdPartyDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThirdPartyDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThirdPartyDemo/Pods-ThirdPartyDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		8282F379FF6D25AD21D95F75 /* Pods_ThirdPartyDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThirdPartyDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D44F14B87196A59B745096A9 /* Pods-ThirdPartyDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThirdPartyDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThirdPartyDemo/Pods-ThirdPartyDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D90ABFF31F459C7700FFD449 /* img.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img.jpg; sourceTree = "<group>"; };
 		D9379A411F443AAF00A29A82 /* libWeiboSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeiboSDK.a; sourceTree = "<group>"; };
 		D9379A421F443AAF00A29A82 /* WBHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBHttpRequest.h; sourceTree = "<group>"; };
 		D9379A431F443AAF00A29A82 /* WeiboSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WeiboSDK.bundle; sourceTree = "<group>"; };
@@ -192,6 +194,7 @@
 		D94E8F131F2F18E100B31DD8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D90ABFF31F459C7700FFD449 /* img.jpg */,
 				D94E8F141F2F18E100B31DD8 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -259,6 +262,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D90ABFF41F459C7700FFD449 /* img.jpg in Resources */,
 				D94E8F231F2F18E100B31DD8 /* LaunchScreen.storyboard in Resources */,
 				D94E8F201F2F18E100B31DD8 /* Assets.xcassets in Resources */,
 				D94E8F1E1F2F18E100B31DD8 /* Main.storyboard in Resources */,
