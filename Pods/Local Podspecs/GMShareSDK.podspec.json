@@ -1,0 +1,66 @@
+{
+  "name": "GMShareSDK",
+  "version": "0.1.0",
+  "summary": "微博、QQ、腾讯SDK集合",
+  "homepage": "http://git.gengmei.cc/gengmeiios/GMShareSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "licong": "licong@gmei.com"
+  },
+  "source": {
+    "git": "git@git.gengmei.cc:gengmeiios/GMShareSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "frameworks": [
+    "UIKit",
+    "JavaScriptCore",
+    "SystemConfiguration",
+    "CoreTelephony",
+    "QuartzCore",
+    "CoreText",
+    "CoreGraphics",
+    "Photos",
+    "Security",
+    "ImageIO"
+  ],
+  "libraries": [
+    "icucore",
+    "z.1.2.5",
+    "stdc++"
+  ],
+  "subspecs": [
+    {
+      "name": "ShareSDKPlatforms",
+      "subspecs": [
+        {
+          "name": "QQ",
+          "vendored_frameworks": "GMShareSDK/ShareSDKPlatforms/QQSDK/TencentOpenAPI.framework",
+          "resources": "GMShareSDK/ShareSDKPlatforms/QQSDK/TencentOpenApi_IOS_Bundle.bundle",
+          "libraries": "sqlite3"
+        },
+        {
+          "name": "SinaWeibo",
+          "vendored_libraries": "GMShareSDK/ShareSDKPlatforms/SinaWeiboSDK/*.a",
+          "resources": "GMShareSDK/ShareSDKPlatforms/SinaWeiboSDK/WeiboSDK.bundle",
+          "frameworks": "ImageIO",
+          "libraries": "sqlite3",
+          "source_files": "GMShareSDK/ShareSDKPlatforms/SinaWeiboSDK/*.{h,m}",
+          "public_header_files": "GMShareSDK/ShareSDKPlatforms/SinaWeiboSDK/*.h"
+        },
+        {
+          "name": "WeChat",
+          "vendored_libraries": "GMShareSDK/ShareSDKPlatforms/WeChatSDK/*.a",
+          "source_files": "GMShareSDK/ShareSDKPlatforms/WeChatSDK/*.{h,m}",
+          "public_header_files": "GMShareSDK/ShareSDKPlatforms/WeChatSDK/*.h",
+          "libraries": "sqlite3"
+        }
+      ]
+    }
+  ]
+}

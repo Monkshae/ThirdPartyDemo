@@ -1,0 +1,1 @@
+../../../../../../Code/Client/GMShareSDK/GMShareSDK/ShareSDKPlatforms/WeChatSDK/WXApiObject.h

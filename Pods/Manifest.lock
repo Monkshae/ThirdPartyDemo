@@ -1,0 +1,24 @@
+PODS:
+  - GMShareSDK (0.1.0):
+    - GMShareSDK/ShareSDKPlatforms (= 0.1.0)
+  - GMShareSDK/ShareSDKPlatforms (0.1.0):
+    - GMShareSDK/ShareSDKPlatforms/QQ (= 0.1.0)
+    - GMShareSDK/ShareSDKPlatforms/SinaWeibo (= 0.1.0)
+    - GMShareSDK/ShareSDKPlatforms/WeChat (= 0.1.0)
+  - GMShareSDK/ShareSDKPlatforms/QQ (0.1.0)
+  - GMShareSDK/ShareSDKPlatforms/SinaWeibo (0.1.0)
+  - GMShareSDK/ShareSDKPlatforms/WeChat (0.1.0)
+
+DEPENDENCIES:
+  - GMShareSDK (from `/Users/licong/Code/Client/GMShareSDK`)
+
+EXTERNAL SOURCES:
+  GMShareSDK:
+    :path: "/Users/licong/Code/Client/GMShareSDK"
+
+SPEC CHECKSUMS:
+  GMShareSDK: 33ded3ea004d08568766ef8545a8b3ac07e30be3
+
+PODFILE CHECKSUM: b4a513457eec01095c3b3d211c507ea80e367783
+
+COCOAPODS: 1.2.1
