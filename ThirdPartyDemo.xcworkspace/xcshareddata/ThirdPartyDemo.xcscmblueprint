@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F333283586A86483247573AE44052F3048AF9BEA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "AA70B44617B93009C42A5073D97267E1C255F8B6" : 9223372036854775807,
+    "F333283586A86483247573AE44052F3048AF9BEA" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0875BDF9-2B8F-43C2-8B6E-AE8CE429E2A0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "AA70B44617B93009C42A5073D97267E1C255F8B6" : "..\/Code\/Client\/GMShareSDK",
+    "F333283586A86483247573AE44052F3048AF9BEA" : "ThirdPartyDemo%202\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ThirdPartyDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ThirdPartyDemo.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.gengmei.cc:gengmeiios\/GMShareSDK.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AA70B44617B93009C42A5073D97267E1C255F8B6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Monkshae\/ThirdPartyDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F333283586A86483247573AE44052F3048AF9BEA"
+    }
+  ]
+}
